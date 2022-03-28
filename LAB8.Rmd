@@ -1,0 +1,55 @@
+---
+title: "LAB8"
+author: "Alfredo Baeza"
+date: "3/25/2022"
+output: 
+    html_document:
+      toc: yes
+      toc_float: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Task 1
+
+```{r}
+getwd()
+```
+
+# Task 2
+
+## Create a sample of size n=10 from a uniform distribution that has lower limit 0 and upper limit 5 by using runif(10,0,5). 
+```{r}
+runif(10,0,5)
+```
+
+## Give the mean and variance of the uniform for the case where a=0, b=5
+
+```{r}
+mean = (0+5)/2
+'mean'
+mean
+variance = ((5-0)^2)/12
+'variance'
+variance
+```
+
+## 	Use the sample you made to calculate x^bar and s^2. How do they compare to the population parameters?
+
+```{r}
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
